@@ -1,0 +1,88 @@
+:root {
+    --input-height: 40px;
+    --input-font-size: 1rem;
+    --button-height: 35px;
+    --button-font-size: 1rem;
+    --form-width: 315px;
+    --text-font-size: 1.3rem;
+}
+
+.login-form {
+    width: var(--form-width);
+    height: 436px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    left: 665px;
+    gap: 30.46px;
+}
+
+.form-title {
+    font-size: var(--text-font-size);
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    width: 194px;
+    height: 27px;
+}
+
+.antd-login-form .ant-form-item {
+    margin-bottom: 0; 
+    padding-bottom: 5px; 
+}
+
+.antd-login-form .ant-input,
+.antd-login-form .ant-input-password {
+    height: var(--input-height);
+    font-size: var(--input-font-size);
+    color: #646464;
+    border-radius: 4px; 
+    box-shadow: none; 
+}
+
+  
+.forgot-password-container {
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.forgot-password {
+    font-size: 0.8rem;
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.sign-up-text {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.sign-up-text a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.sign-up-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .form-title{
+        font-size: 1.2rem;
+    }
+   
+}
