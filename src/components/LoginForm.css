@@ -6,7 +6,9 @@
     --form-width: 315px;
     --text-font-size: 1.3rem;
 }
-
+*{
+    overflow: hidden;
+}
 .login-form {
     width: var(--form-width);
     height: 436px;
